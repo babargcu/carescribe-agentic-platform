@@ -1,0 +1,39 @@
+{
+  "text": "Guten Tag, ich habe seit heute Morgen Fieber und Halsschmerzen. Arzt: Das klingt nach Grippe. Nehmen Sie bitte Metoprolol.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Fieber",
+      "label": "symptom"
+    },
+    {
+      "text": "Halsschmerzen",
+      "label": "symptom"
+    },
+    {
+      "text": "Metoprolol",
+      "label": "medication"
+    },
+    {
+      "text": "Grippe",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Fieber",
+      "code": "R50.9",
+      "display": "Fieber, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Halsschmerzen",
+      "code": "J02.9",
+      "display": "Akute Pharyngitis, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Grippe",
+      "code": "J11.1",
+      "display": "Grippe mit sonstigen Manifestationen, Virus nicht nachgewiesen"
+    }
+  ]
+}

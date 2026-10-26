@@ -1,0 +1,6 @@
+# Extra packages needed on top of backend/requirements.txt -- the ml/
+# scripts import backend agent code directly (see sys.path shim at the top
+# of each script), so install these into the same virtualenv as backend/.
+mlflow==2.16.0
+scikit-learn==1.5.2
+numpy==1.26.4

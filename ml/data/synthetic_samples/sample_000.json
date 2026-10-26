@@ -1,0 +1,30 @@
+{
+  "text": "Die Patientin berichtet seit drei Tagen über Fieber. Verordnet wurde Omeprazol. Verdacht auf Diabetes mellitus Typ 2.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Fieber",
+      "label": "symptom"
+    },
+    {
+      "text": "Omeprazol",
+      "label": "medication"
+    },
+    {
+      "text": "Diabetes mellitus Typ 2",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Fieber",
+      "code": "R50.9",
+      "display": "Fieber, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Diabetes mellitus Typ 2",
+      "code": "E11.9",
+      "display": "Diabetes mellitus, Typ 2, ohne Komplikationen"
+    }
+  ]
+}

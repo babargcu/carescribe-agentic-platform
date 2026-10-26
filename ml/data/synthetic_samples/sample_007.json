@@ -1,0 +1,39 @@
+{
+  "text": "Der Patient klagt über Atemnot und Schwindel. Er nimmt Ibuprofen. Diagnose: COVID-19.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Atemnot",
+      "label": "symptom"
+    },
+    {
+      "text": "Schwindel",
+      "label": "symptom"
+    },
+    {
+      "text": "Ibuprofen",
+      "label": "medication"
+    },
+    {
+      "text": "COVID-19",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Atemnot",
+      "code": "R06.0",
+      "display": "Dyspnoe"
+    },
+    {
+      "entity_text": "Schwindel",
+      "code": "R42",
+      "display": "Schwindel und Taumel"
+    },
+    {
+      "entity_text": "COVID-19",
+      "code": "U07.1",
+      "display": "COVID-19, Virus nachgewiesen"
+    }
+  ]
+}

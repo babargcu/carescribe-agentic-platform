@@ -1,0 +1,39 @@
+{
+  "text": "Der Patient klagt über Husten und Fieber. Er nimmt Paracetamol. Diagnose: Pneumonie.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Husten",
+      "label": "symptom"
+    },
+    {
+      "text": "Fieber",
+      "label": "symptom"
+    },
+    {
+      "text": "Paracetamol",
+      "label": "medication"
+    },
+    {
+      "text": "Pneumonie",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Husten",
+      "code": "R05",
+      "display": "Husten"
+    },
+    {
+      "entity_text": "Fieber",
+      "code": "R50.9",
+      "display": "Fieber, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Pneumonie",
+      "code": "J18.9",
+      "display": "Pneumonie, nicht näher bezeichnet"
+    }
+  ]
+}

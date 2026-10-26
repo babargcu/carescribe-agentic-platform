@@ -1,0 +1,39 @@
+{
+  "text": "Der Patient klagt über Kopfschmerzen und Fieber. Er nimmt Amoxicillin. Diagnose: Diabetes mellitus Typ 2.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Kopfschmerzen",
+      "label": "symptom"
+    },
+    {
+      "text": "Fieber",
+      "label": "symptom"
+    },
+    {
+      "text": "Amoxicillin",
+      "label": "medication"
+    },
+    {
+      "text": "Diabetes mellitus Typ 2",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Kopfschmerzen",
+      "code": "R51",
+      "display": "Kopfschmerz"
+    },
+    {
+      "entity_text": "Fieber",
+      "code": "R50.9",
+      "display": "Fieber, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Diabetes mellitus Typ 2",
+      "code": "E11.9",
+      "display": "Diabetes mellitus, Typ 2, ohne Komplikationen"
+    }
+  ]
+}

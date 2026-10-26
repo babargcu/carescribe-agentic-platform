@@ -1,0 +1,30 @@
+{
+  "text": "Patient: Mir ist seit gestern übel und ich habe Halsschmerzen. Arzt: Wir diagnostizieren Bronchitis und verschreiben Ibuprofen.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Halsschmerzen",
+      "label": "symptom"
+    },
+    {
+      "text": "Ibuprofen",
+      "label": "medication"
+    },
+    {
+      "text": "Bronchitis",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Halsschmerzen",
+      "code": "J02.9",
+      "display": "Akute Pharyngitis, nicht näher bezeichnet"
+    },
+    {
+      "entity_text": "Bronchitis",
+      "code": "J20.9",
+      "display": "Akute Bronchitis, nicht näher bezeichnet"
+    }
+  ]
+}

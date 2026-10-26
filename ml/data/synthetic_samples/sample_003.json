@@ -1,0 +1,25 @@
+{
+  "text": "Patient: Mir ist seit gestern übel und ich habe Schüttelfrost. Arzt: Wir diagnostizieren Diabetes mellitus Typ 2 und verschreiben Metoprolol.",
+  "language": "de",
+  "gold_entities": [
+    {
+      "text": "Schüttelfrost",
+      "label": "symptom"
+    },
+    {
+      "text": "Metoprolol",
+      "label": "medication"
+    },
+    {
+      "text": "Diabetes mellitus Typ 2",
+      "label": "diagnosis"
+    }
+  ],
+  "gold_icd_codes": [
+    {
+      "entity_text": "Diabetes mellitus Typ 2",
+      "code": "E11.9",
+      "display": "Diabetes mellitus, Typ 2, ohne Komplikationen"
+    }
+  ]
+}
