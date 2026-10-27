@@ -1,7 +1,7 @@
 """Curated ICD-10-GM sample lookup with fuzzy matching.
 
-This is a small hand-picked subset (common diagnoses/symptoms) for demo
-purposes -- NOT the full German ICD-10-GM catalogue, which is a licensed
+This is a small hand-picked subset (common diagnoses/symptoms) used until
+the full catalogue is integrated -- NOT the full German ICD-10-GM catalogue, which is a licensed
 BfArM import. Swap this module out for a real catalogue lookup (e.g. a
 Postgres table loaded from the official BfArM release) without touching
 any calling code; the public surface is just `lookup_icd10gm`.

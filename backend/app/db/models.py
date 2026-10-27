@@ -15,7 +15,7 @@ class ClinicalSession(Base, TimestampMixin):
 
     id: Mapped[str] = mapped_column(String, primary_key=True, default=new_uuid)
     patient_pseudonym: Mapped[str] = mapped_column(String, default="synthetic-patient")
-    clinician_name: Mapped[str] = mapped_column(String, default="Dr. Demo")
+    clinician_name: Mapped[str] = mapped_column(String, default="Unassigned")
     language: Mapped[str] = mapped_column(String, default="de")
     status: Mapped[str] = mapped_column(String, default="created")
     # created -> transcribing -> processing -> needs_review -> approved|rejected

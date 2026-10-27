@@ -1,7 +1,7 @@
 # Roadmap & status
 
-Honest snapshot of what's real vs. stubbed, so this doubles as an
-engineering log as well as a project plan.
+Current status of what's implemented, what's simplified, and what's
+planned next.
 
 ## Done (MVP)
 

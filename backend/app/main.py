@@ -21,7 +21,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title=settings.app_name,
-    description="Agentic ambient clinical documentation & FHIR coding platform (demo).",
+    description="Agentic ambient clinical documentation & FHIR coding platform.",
     lifespan=lifespan,
 )
 

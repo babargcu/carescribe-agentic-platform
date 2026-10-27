@@ -22,7 +22,7 @@ export function DashboardPage() {
     try {
       const session = await createSession({
         patient_pseudonym: "synthetic-patient",
-        clinician_name: "Dr. Demo",
+        clinician_name: "Unassigned",
         language: "de",
       });
       navigate(`/sessions/${session.id}`);
@@ -37,7 +37,7 @@ export function DashboardPage() {
     <div className="page">
       <header className="page-header">
         <h1>CareScribe</h1>
-        <p className="subtitle">Agentic ambient clinical documentation &amp; FHIR coding -- demo</p>
+        <p className="subtitle">Agentic ambient clinical documentation &amp; FHIR coding</p>
       </header>
 
       <button className="btn btn-primary" onClick={handleCreate} disabled={creating}>

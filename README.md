@@ -8,26 +8,25 @@ pipeline, a human-in-the-loop review UI, and the MLOps scaffolding
 (experiment tracking, monitoring, CI/CD) needed to run it safely in
 production.
 
-It's a portfolio project built to demonstrate the exact skill
-intersection that German health-tech / "agentic AI engineer" roles are
-hiring for right now: clinical NLP, multi-agent orchestration, FHIR,
-MLOps, and full-stack delivery — modeled loosely on the kind of product
-pairing you see at companies like IDM gGmbH (ambient scribe + FHIR
-platform), but original in design, implementation, and name. No real
-patient data is used anywhere — all audio/text samples are synthetic.
+It brings together clinical NLP, multi-agent orchestration, FHIR
+interoperability, and MLOps in a single platform, with a focus on the
+German healthcare context (ICD-10-GM coding, German and English
+encounters). The repository ships with synthetic audio/text samples
+only — no real patient data.
 
-> ⚠️ **Not a medical device.** This is an engineering demo. It has not
-> been validated for clinical use and must never be used on real
-> patient data or in real clinical decision-making.
+> ⚠️ **Not a certified medical device.** CareScribe has not undergone
+> clinical validation or regulatory clearance (MDR/CE). Do not use it on
+> real patient data or to inform clinical decisions until those steps
+> are complete.
 
-## Why this exists
+## Motivation
 
-Job postings in this space (ambient clinical scribes, FHIR-based
-documentation copilots) ask for one person to own the *whole* lifecycle:
-train/evaluate NLP models, wire them into a multi-agent system, ship it
-behind a real API + UI, and keep it observable in production. Most
-portfolio projects show one slice of that. CareScribe tries to show all
-of it, at MVP depth, in one coherent repo.
+Clinical documentation consumes a large share of clinicians' time, and
+the output is often free text that downstream systems can't use.
+CareScribe addresses both problems at once: it captures the encounter
+ambiently, produces a structured and coded note, and delivers it as
+standard FHIR resources — while keeping a clinician in control of every
+note before it is stored.
 
 ## Architecture
 
@@ -162,7 +161,7 @@ npm run dev
 
 ## Project status / roadmap
 
-This is a working MVP skeleton, not a finished product. See
+CareScribe is at MVP stage and under active development. See
 [`docs/ROADMAP.md`](docs/ROADMAP.md) for what's implemented, what's
 stubbed, and what's next (model fine-tuning, real-time streaming ASR,
 Kubernetes/Helm deployment, clinical trial-style evaluation).

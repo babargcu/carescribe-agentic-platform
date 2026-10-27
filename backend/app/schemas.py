@@ -7,7 +7,7 @@ from pydantic import BaseModel, ConfigDict
 
 class SessionCreate(BaseModel):
     patient_pseudonym: str = "synthetic-patient"
-    clinician_name: str = "Dr. Demo"
+    clinician_name: str = "Unassigned"
     language: str = "de"
 
 
